@@ -75,6 +75,7 @@ nav.navbar-brand-bg {
 }
 */
 /* footer */
+
 footer.site-footer {
   margin-top: 2rem;
   font-weight: 300;
@@ -113,4 +114,46 @@ footer a:hover {
 
 .section-heading {
   color: #b881fc;
+}
+
+#bookingContainer {
+  background-color: rgba(129, 129, 129, 0.4);
+  position: absolute;
+  right: 1rem;
+  bottom: 1rem;
+  z-index: 100;
+  width: 85%;
+  left: 0px;
+  right: 0xpx;
+  margin: 0px auto;
+
+  height: 60px;
+}
+
+.fontAwesome {
+  font-family: Helvetica, "FontAwesome", sans-serif;
+}
+
+.form-control {
+  margin-top: 15px;
+  width: 95%;
+  padding: 15px;
+  border-radius: 3px;
+}
+
+#guests.form-control {
+  width: 70%;
+}
+
+select#guests {
+  height: auto;
+  line-height: 12px;
+  padding: 6px;
+}
+
+#submit-button {
+  margin-top: 15px;
+  width: 70%;
+  padding: 4px;
+  border-radius: 3px;
 }
