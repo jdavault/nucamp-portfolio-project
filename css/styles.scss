@@ -1,28 +1,39 @@
+$color-primary: #b881fc;
+$secondary-primary: #fff;
+$icon-color: #40b7ad;
+
 html,
 body {
   border: 0;
   margin: 0;
   outline: 0;
   padding: 0;
-  vertical-align: baseline; }
+  vertical-align: baseline;
+}
 
 i {
-  color: #40b7ad; }
+  color: $icon-color;
+}
 
 .list-group-item span {
-  padding-right: 0.8rem; }
+  padding-right: 0.8rem;
+}
 
 @media only screen and (max-width: 600px) {
   .col-md-3 {
-    width: 70%; } }
+    width: 70%;
+  }
+}
 
 .productivity-nav {
   background: #ddd;
-  margin-top: 0; }
+  margin-top: 0;
+}
 
 .form-control {
   padding: 30px 0;
-  border-radius: 0; }
+  border-radius: 0;
+}
 
 #search_wrapper {
   bottom: 10%;
@@ -32,14 +43,17 @@ i {
   position: absolute;
   left: 0px;
   right: 0px;
-  margin: 0px auto; }
+  margin: 0px auto;
+}
 
 .btn-primary {
-  background-color: #b881fc;
-  border-color: #b881fc; }
+  background-color: $color-primary;
+  border-color: $color-primary;
+}
 
 .lnk-primary {
-  color: #b881fc; }
+  color: #b881fc;
+}
 
 /* body {
   font-family: Lato, sans-serif;
@@ -65,36 +79,44 @@ nav.navbar-brand-bg {
 }
 */
 /* footer */
+
 footer.site-footer {
   margin-top: 2rem;
   font-weight: 300;
   background-color: #b881fc;
   min-height: 100px;
   background-image: linear-gradient(#b881fc, white);
-  padding: 20px 0; }
+  padding: 20px 0;
+}
 
 footer,
 footer a,
 footer a:hover {
   color: #fff;
-  padding: 1em; }
+  padding: 1em;
+}
 
 .fa-cog {
-  color: white; }
+  color: white;
+}
 
 .site-footer.a:link {
   color: white;
   background-color: transparent;
-  text-decoration: none; }
+  text-decoration: none;
+}
 
 .brand-text {
-  font-weight: 700; }
+  font-weight: 700;
+}
 
 .copyright {
-  font-size: 0.8em; }
+  font-size: 0.8em;
+}
 
 .section-heading {
-  color: #b881fc; }
+  color: #b881fc;
+}
 
 #bookingContainer {
   background-color: rgba(129, 129, 129, 0.4);
@@ -106,27 +128,34 @@ footer a:hover {
   left: 0px;
   right: 0xpx;
   margin: 0px auto;
-  height: 60px; }
+
+  height: 60px;
+}
 
 .fontAwesome {
-  font-family: Helvetica, "FontAwesome", sans-serif; }
+  font-family: Helvetica, "FontAwesome", sans-serif;
+}
 
 .form-control {
   margin-top: 15px;
   width: 95%;
   padding: 15px;
-  border-radius: 3px; }
+  border-radius: 3px;
+}
 
 #guests.form-control {
-  width: 70%; }
+  width: 70%;
+}
 
 select#guests {
   height: auto;
   line-height: 12px;
-  padding: 6px; }
+  padding: 6px;
+}
 
 #submit-button {
   margin-top: 15px;
   width: 70%;
   padding: 4px;
-  border-radius: 3px; }
+  border-radius: 3px;
+}
