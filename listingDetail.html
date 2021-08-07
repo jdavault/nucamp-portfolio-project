@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags always come first -->
+  <meta charset="utf-8" />
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1" />
+
+  <!-- build:css css/main.css -->
+  <link rel="stylesheet"
+    href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+  <link rel="stylesheet"
+    href="node_modules/font-awesome/css/font-awesome.min.css" />
+  <link rel="stylesheet"
+    href="node_modules/bootstrap-social/bootstrap-social.css" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="stylesheet" href="css/carousel.css">
+
+  <!-- endbuild -->
+
+  <title>Phoenix SmartBnB | Listing Detail</title>
+</head>
+
+<body>
+  <nav
+    class="navbar navbar-expand-lg navbar-light productivity-nav">
+    <a class="navbar-brand" href="#">
+      <img src="images/logo.png" height="80" width="170">
+    </a>
+
+    <button type="button" class="navbar-toggler"
+      data-target="#navbarNav" data-toggle="collapse"
+      aria-controls="navbarNav" aria-expanded="false"
+      aria-label="Togge navigation">
+      <span class="navbar-toggler-icon ml-auto"></span>
+    </button>
+    <div
+      class="collapse navbar-collapse justify-content-end"
+      id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link"
+            href="listings.html">Listings</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="owner.html">Owner</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link"
+            href="reviews.html">Reviews</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contactUs.html">Contact
+            Us</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+
+  <div class="container-fluid h-50 w-100">
+    <div class="row">
+      <div class="col p-0 m-0">
+        <img src="images/usbr01.jpeg"
+          class="jumbo-img img-fluid"
+          alt="Responsive image">
+        <div class="jumbo-caption">
+          <div class="row d-flex justify-content-between">
+            <div class="col">
+              <p class="secondary-large mb-0 pb-0">North
+                Phoenix Smart
+                Home</p>
+              <p class="secondary-small">Phoenix, AZ</p>
+            </div>
+            <div class="col">
+              <p class="primary-medium text-right mt-4">
+                $35
+                per
+                night</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-8">
+        <div class="row">
+
+          <div class="col-7">
+            <ul
+              class="mt-2 category-list list-inline d-flex flex-row">
+              <li class="list-inline-item p-3">
+                <i class="fa fa-home fa-2x"></i>Private
+                room
+              </li>
+              <li class="list-inline-item p-3">
+                <i class="fa fa-building fa-2x"></i> House
+              </li>
+              <li class="list-inline-item p-3">
+                <i class="fa fa-users fa-2x"> </i> 2 Guests
+              </li>
+              <li class="list-inline-item p-3">
+                <i class="fa fa-bed fa-2x"> </i> 1 Bedrom
+              </li>
+            </ul>
+          </div>
+          <div class="col-5 mt-4 text-right">
+            <button
+              class="btn-main rounded-pill px-4 py-3">Check
+              Availabilty</button>
+
+          </div>
+        </div>
+
+      </div>
+
+      <div class="col-4">
+
+
+        <form>
+          <h3>Book Now</h2>
+            <div class="form row">
+              <div class="col-md-10">
+                <input id="checkin" type="date"
+                  class="form-control form-control-sm fontAwesome"
+                  id="checkin"
+                  placeholder="&#xf073; Check-In">
+              </div>
+            </div>
+            <div class="form row">
+              <div class="col-md-10">
+                <input id="checkout" type="date"
+                  class="form-control form-control-sm fontAwesome"
+                  id="checkout"
+                  placeholder="&#xf073; Check-Out">
+              </div>
+            </div>
+            <div class="form row">
+              <div class="col-md-10">
+                <select name="guests" id="guests"
+                  placeholder="&#xf007; Guests"
+                  class="form-control form-control-sm fontAwesome">
+                  <optgroup>
+                    <option value="" selected disabled>
+                      &#xf007;
+                      Users
+                    </option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                  </optgroup>
+                </select>
+              </div>
+            </div>
+
+            <div class="form row">
+              <div class="col-md-10">
+                <button type="submit"
+                  class="btn btn-primary btn-sm ml-1">
+                  <i class="fa fa-bolt fa-2x"></i>Instant
+                  Booking
+                </button>
+              </div>
+            </div>
+
+
+        </form>
+
+
+      </div>
+
+    </div>
+  </div>
+
+  <section>
+    <footer class="site-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-4 col-sm-2 offset-1">
+            <h5>Links</h5>
+            <ul class="list-unstyled">
+              <li><a href="#">Home</a></li>
+              <li><a href="listings.html">Listings</a>
+              </li>
+              <li><a href="#">Owner</a></li>
+              <li><a href="reviews.html">Reviews</a>
+              </li>
+              <li><a href="contactus.html">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-6 col-sm-5 text-center">
+            <h5>Social</h5>
+            <a class="btn btn-social-icon btn-instagram"
+              href="http://instagram.com/">
+              <i
+                class="fa fa-cog fa-instagram fa-2x"></i></a>
+            <a class="btn btn-social-icon btn-facebook"
+              href="http://facebook.com/">
+              <i
+                class="fa fa-cog fa-facebook fa-2x"></i></a>
+            <a class="btn btn-social-icon btn-twitter"
+              href="http://twitter.com/">
+              <i class="fa fa-cog fa-twitter fa-2x"></i></a>
+            <a class="btn btn-social-icon btn-google"
+              href="http://youtube.com/">
+              <i class="fa fa-cog fa-youtube fa-2x"></i></a>
+          </div>
+          <div class="col-sm-4 text-center">
+            <a role="button" class="footer-link"
+              href="tel:+602-614-1243">
+              <i
+                class="fa fa-cog fa-phone fa-lg text-primary"></i>
+              1-206-555-1234</a>
+            <br />
+            <a role="button" class="footer-link"
+              href="mailto:joe.davault@p3SolutionsGroup.com">
+              <i
+                class="fa fa-cog fa-envelope fa-lg text-primary"></i>
+              support@p3SGroup.com</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </section>
+
+  <!-- build:js js/main.js -->
+  <script
+    src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+  <script
+    src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+  <script
+    src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script src="js/scripts.js"></script>
+  <!-- endbuild -->
+</body>
+
+</html>
